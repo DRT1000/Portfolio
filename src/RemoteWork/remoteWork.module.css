@@ -1,0 +1,13 @@
+.remoteWorkBlock{
+    min-height: 50vh;
+    background-color: rgba(252,105,34,0.85)
+}
+
+.title{
+    background-color: rgba(49,53,252,0.85);
+}
+
+.remoteWorkContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}

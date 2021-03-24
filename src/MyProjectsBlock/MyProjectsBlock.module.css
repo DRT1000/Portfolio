@@ -1,0 +1,20 @@
+.projectBlock {
+    min-height: 100vh;
+    background-color: rgba(96, 160, 252, 0.85)
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: rgba(252,203,24,0.85);
+}
+.projects{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
