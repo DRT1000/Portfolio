@@ -23,7 +23,7 @@ function SkillsBlock() {
                 <h2 className={style.title}>My skills</h2>
                 <div className={style.skills}>
                     {skills.map((s) =>
-                        <Skill title={s.title} description={s.description}/>
+                        <Skill key={s.title} title={s.title} description={s.description}/>
                     )}
                 </div>
             </div>

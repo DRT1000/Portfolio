@@ -23,7 +23,7 @@ function MyProjectsBlock() {
                 <h2 className={style.title}>My projects</h2>
                 <div className={style.projects}>
                     {projects.map((p) =>
-                        <Project title={p.title} description={p.description} link={p.link}/>
+                        <Project key={p.title} title={p.title} description={p.description} link={p.link}/>
                     )}
                 </div>
             </div>

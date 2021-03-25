@@ -1,11 +1,13 @@
 .block {
-    height: 100vh;
-    background-color: rgba(37, 35, 131, 0.85)
+    height: 60vh;
+    background-color: rgba(37, 35, 131, 0.85);
+    margin-bottom: 100px;
 }
 
 .footerContainer {
+    height: 50vh;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .title {
